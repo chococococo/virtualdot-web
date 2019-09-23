@@ -33,3 +33,13 @@ h4 {
 .social_div {
   margin-top: 3%;
 }
+
+.navbar-brand {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header-icon {
+  display: inline-block;
+  width: 13%!important;
+  padding-right: 0.3em;
+}
