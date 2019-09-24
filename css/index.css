@@ -43,3 +43,7 @@ h4 {
   width: 13%!important;
   padding-right: 0.3em;
 }
+
+.small-margin {
+  margin: 0.3rem !important;
+}
