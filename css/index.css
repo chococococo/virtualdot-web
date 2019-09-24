@@ -47,3 +47,7 @@ h4 {
 .small-margin {
   margin: 0.3rem !important;
 }
+
+.main-icon {
+  width: 70% !important;
+}
