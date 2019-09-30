@@ -205,6 +205,10 @@
 
 .xp-section {
   padding: 5rem 0;
+}
+
+.contact-form-section {
+  padding: 5rem 0;
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -212,7 +216,7 @@
   background-size: cover;
 }
 
-.xp-section .form-inline input {
+.contact-form-section .form-inline input {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
@@ -229,6 +233,7 @@
 .xp-section .card h5 {
   font-style: italic;
   color: #cac6c6;
+  font-size: 1.2rem;
 }
 .prize-logo {
   max-height: 100px;

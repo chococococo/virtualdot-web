@@ -73,13 +73,14 @@
       <div class="mx-auto text-center">
         <img src="img/virtual_dot-logo-main.png" class="main-icon"/>
         <h2 class="mx-auto my-0 text-uppercase">We make you move</h2>
+        <i class="fas fa-angle-double-down starter-arrow"></i>
       </div>
     </div>
   </header>
 
   <!-- About Section -->
   <section id="about" class="about-section text-center">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h1 class="text-white mb-4">We create immersive experiences to improve your health</h1>
@@ -88,15 +89,21 @@
             We are a technology first startup. <br/> Our movement detection technology has many applications and has flawless precision, thus enabling the creation of many different applications.
           </p>
 
-          <!-- 
-                    <p class="text-white-50 small-margin">
-            In the medical context, by creating a physical rehabilitation therapy platform to help relieve patients pain and improve their therapy.
-          </p>
-          <p class="text-white-50">
-            At home, by creating applications and experiences to fight sedentarism and make people move to improve their personal health.
-          </p>
-
-           -->
+          <div class="row icon-section">
+            <div class="col-md-4 offset-md-2 mx-auto">
+              <i class="fas fa-laptop-medical"></i>
+              <p class="text-white-50 small-margin">
+                In the medical context, by creating a physical rehabilitation therapy platform to help relieve patients pain and improve their therapy.
+              </p>
+            </div>
+            <div class="col-md-4 mx-auto">
+              <i class="fas fa-running"></i>
+              <p class="text-white-50">
+                At home, by creating applications and experiences to fight sedentarism and make people move to improve their personal health.
+              </p>
+            </div>
+          </div>
+         
 
 
         </div>
@@ -126,7 +133,9 @@
       <!-- Project One Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6 black-bg" >
-          <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+          <video class="img-fluid" autoplay loop muted> 
+            
+          </video>
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
@@ -148,7 +157,9 @@
       <!-- Project Two Row -->
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6 black-bg">
-          <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+          <video class="img-fluid" autoplay loop muted> 
+            
+          </video>
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
@@ -169,7 +180,7 @@
     </div>
   </section>
 
-  <!-- Signup Section -->
+  <!-- XP Section -->
   <section id="experience" class="xp-section">
     <div class="container">
       <div class="row">
@@ -184,7 +195,7 @@
             <div class="card py-4 h-100">
               <div class="card-body text-center">
                 
-                <img src="img/BA-buenos-aires-logo.png" class="img-fluid"/>  
+                <img src="img/BA-buenos-aires-logo.png" class="img-fluid less-size"/>  
 
                 <hr class="my-4">
                 <div class="small text-black-50">
@@ -200,7 +211,7 @@
             <div class="card py-4 h-100">
               <div class="card-body text-center">
                 
-                <img src="img/virtuality-buenos-aires-logo.png" class="img-fluid"/>  
+                <img src="img/virtuality-buenos-aires-logo.png" class="img-fluid less-size"/>  
 
                 <hr class="my-4">
                 <div class="small text-black-50">
@@ -211,6 +222,33 @@
           </a>
         </div>
 
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact Section -->
+   <section id="contact" class="contact-form-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+          <h2 class="text-white mb-5">Interested? More Questions? Get in contact</h2>
+
+          <form class="form-inline d-flex" id="77de623e-051b-3d95-bbe3-2668ac569972">
+            
+            <textarea name="contact-body" class="contact-area" placeholder="Enter your message..."></textarea>
+              <input type="hidden" name="phone" value="no-phone"/>
+              
+              <input type="text" name="name" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputName" placeholder="Your name...">
+
+              <input type="email" name="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Your email...">
+              <button type="submit" class="btn btn-primary mx-auto">Send</button>
+            
+          </form>
+
+        </div>
       </div>
     </div>
   </section>
@@ -294,21 +332,16 @@
   <!-- Custom scripts for this template -->
   <script src="js/grayscale.min.js"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148221739-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148221739-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-      gtag('config', 'UA-148221739-1');
-    </script>
-
-
-<!-- 
-  Hacer un form con ID 77de623e-051b-3d95-bbe3-2668ac569972
+    gtag('config', 'UA-148221739-1');
+  </script>
   <script type="application/javascript" src="https://library.form2go.io/v1/6bbde138-1c54-33d9-98a3-8f2e5662f088.js"></script>
 
- -->
 
 </body>
 
