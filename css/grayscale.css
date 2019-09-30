@@ -90,7 +90,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/virtualdot-abstract-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -203,8 +203,8 @@
   }
 }
 
-.signup-section {
-  padding: 10rem 0;
+.xp-section {
+  padding: 5rem 0;
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -212,7 +212,7 @@
   background-size: cover;
 }
 
-.signup-section .form-inline input {
+.xp-section .form-inline input {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
@@ -221,6 +221,18 @@
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
+}
+
+.xp-section .card {
+  background-color: #696868;
+}
+.xp-section .card h5 {
+  font-style: italic;
+  color: #cac6c6;
+}
+.prize-logo {
+  max-height: 100px;
+  width: auto;
 }
 
 .contact-section {
