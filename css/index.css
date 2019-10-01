@@ -89,3 +89,15 @@ h4 {
     font-family: 'Nunito';
     font-size: 1.3rem;
 }
+
+
+.form2go-response-errors {
+  visibility: hidden;
+}
+
+.form2go-response-errors:after {
+  visibility: visible;
+  display: block;
+  color: #E5234D;
+  content:"The message must be up to 255 characters.";
+}
