@@ -4,12 +4,23 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- ToDo Se pueden configurar % de que tan importante es una URL vs otras -->
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>http://virtualdot.info/</loc>
-  <lastmod>2019-09-25T18:05:29+00:00</lastmod>
+  <lastmod>2019-10-02T22:59:00+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://virtualdot.info/index-en.html</loc>
+  <lastmod>2019-10-02T22:59:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://virtualdot.info/index.html</loc>
+  <lastmod>2019-10-02T22:59:00+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
