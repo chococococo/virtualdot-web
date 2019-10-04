@@ -46,7 +46,7 @@ function redirect(actuallang){
       url ='https://virtualdot.info';
       break;
     case 'es':
-      url ='https://virtualdot.info/index-es.html';
+      url ='https://virtualdot.info/es.html';
       break;
   }
   var oldURL = window.location.href.replace(/^https?:\/\//,'')
@@ -56,7 +56,7 @@ function redirect(actuallang){
   console.log("new loc");
   console.log(newURL);
   console.log(newURL == oldURL);
-  if (url != window.location) {
-  	//  window.location.replace(url);
+  if (newURL == oldURL) {
+  	window.location.replace(url);
   }
 }
