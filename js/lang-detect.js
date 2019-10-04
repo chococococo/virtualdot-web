@@ -49,11 +49,13 @@ function redirect(actuallang){
       url ='https://virtualdot.info/index-es.html';
       break;
   }
+  var oldURL = window.location.href.replace(/^https?:\/\//,'')
+  var newURL = url.replace(/^https?:\/\//,'');
   console.log("old loc");
-  console.log(window.location.href);
+  console.log(oldURL);
   console.log("new loc");
-  console.log(url);
-  console.log(url == window.location);
+  console.log(newURL);
+  console.log(newURL == oldURL);
   if (url != window.location) {
   	//  window.location.replace(url);
   }
