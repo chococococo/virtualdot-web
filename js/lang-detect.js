@@ -56,7 +56,7 @@ function redirect(actuallang){
   console.log("new loc");
   console.log(newURL);
   console.log(newURL == oldURL);
-  if (newURL == oldURL) {
+  if (newURL != oldURL) {
   	window.location.replace(url);
   }
 }
