@@ -101,3 +101,7 @@ h4 {
   color: #E5234D;
   content:"The message must be up to 255 characters.";
 }
+
+.bigger-txt {
+  font-size: 1.2rem;
+}
